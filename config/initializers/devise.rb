@@ -287,7 +287,7 @@ Devise.setup do |config|
   # ActiveSupport.on_load(:devise_failure_app) do
   #   include Turbolinks::Controller
   # end
-  config.omniauth :wordpress_oauth2, 'f79ca9358c6ab934ae09b161651ae9a4613c3e2c', '8ab69ab47a32f63e3b7f',
+  config.omniauth :wordpress_oauth2, '1703dedfb2e89a17fdb58e88dbb33f19a2e65448', '70134dbce4c00faa1821',
                   strategy_class: OmniAuth::Strategies::WordpressHosted, 
                   client_options: { site: 'https://www.larosvomme.no/' }
 
