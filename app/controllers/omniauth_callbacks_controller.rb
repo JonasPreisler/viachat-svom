@@ -1,6 +1,5 @@
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   def wordpress_oauth2
-
     @user = User.find_for_wordpress_oauth2(request.env["omniauth.auth"], current_user)
 
     if @user.persisted?
