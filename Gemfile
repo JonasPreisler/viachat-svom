@@ -23,6 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'omniauth'
+gem 'omniauth-oauth2', '1.3.1' # DO NOT change this! If we update teo 1.4 the SSO doesnt work anymore
 gem 'omniauth-wordpress_hosted', github: 'jwickard/omniauth-wordpress-oauth2-plugin'
 gem 'devise'
 gem 'httparty', '~> 0.16.2'

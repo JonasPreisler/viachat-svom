@@ -5,7 +5,6 @@ class BrukereController < ApplicationController
 	def brukere
 	    #self.class.get('/wp-json/wp/v2/users/1')
 		#@users = User.all
-	    require "woocommerce_api"
 
 	end
 
